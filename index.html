@@ -1,52 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
     <section id="ex1"></section>
-    <section id="ex2">El resultado de 3 + 5 es <span id="resultadoEx2"></span></section>
+    <section id="ex2">
+      El resultado de 3 + 5 es <span id="resultadoEx2"></span>
+    </section>
     <section id="ex3">
-        <form>
-            <label for="name">Escribe tu nombre
-                <input type="text" name="name" id="ex3_field_name">
-            </label> 
-        </form>
-        <p id="ex3_p"></p>
+      <form>
+        <label for="name"
+          >Escribe tu nombre
+          <input type="text" name="name" id="ex3_field_name" />
+        </label>
+      </form>
+      <p id="ex3_p"></p>
     </section>
     <section id="ex4">
-        <form action="">
-            <input type="number" name="num1" id="ex4_field_number1">
-            <input type="number" name="num2" id="ex4_field_number2">
-        </form>
-        <p id="ex4_p"></p>
+      <form action="">
+        <div class="title">Suma de dos numeros</div>
+        <label for="">Escribe dos numeros</label>
+        <input type="number" name="num1" id="ex4_field_number1" />
+        <input type="number" name="num2" id="ex4_field_number2" />
+      </form>
+      <p id="ex4_p"></p>
     </section>
     <section id="ex5">
-        <form action="">
-            <input type="number" name="num1" id="ex5_field_number1">
-            <input type="number" name="num2" id="ex5_field_number2">
-        </form>
-        <p id="ex5_p"></p>
+        <div class="title">Mayor de dos numeros</div>
+      <form action="">
+        <label for="">Escribe dos numeros</label>
+        <input type="number" name="num1" id="ex5_field_number1" />
+        <input type="number" name="num2" id="ex5_field_number2" />
+      </form>
+      <p id="ex5_p"></p>
     </section>
     <section id="ex6">
-        <form action="">
-            <input type="number" name="num1" id="ex6_field_number1">
-            <input type="number" name="num2" id="ex6_field_number2">
-            <input type="number" name="num3" id="ex6_field_number3">
-        </form>
-        <p id="ex6_p"></p>
+        <div class="title">Mayor de tres numeros</div>
+      <form action="">
+        <label for="">Escribe tres numeros</label>
+        <input type="number" name="num1" id="ex6_field_number1" />
+        <input type="number" name="num2" id="ex6_field_number2" />
+        <input type="number" name="num3" id="ex6_field_number3" />
+      </form>
+      <p id="ex6_p"></p>
     </section>
     <section id="ex7">
-        <form>
-            <label for="phrase">Escribe una frase
-                <input type="text" name="phrase" id="ex7_field_phrase">
-            </label> 
-        </form>
-        <p id="ex7_p"></p>
+        <div class="title">Cuantas 'a' aparecen</div>
+      <form>
+        <label for="phrase"
+          >Escribe una frase
+          <input type="text" name="phrase" id="ex7_field_phrase" />
+        </label>
+      </form>
+      <p id="ex7_p"></p>
     </section>
+    <section id="ex8">
+        <div class="title">Cuantas vocales aparecen</div>
+      <form>
+        <label for="phrase"
+          >Escribe una frase
+          <input type="text" name="phrase" id="ex8_field_phrase" />
+        </label>
+      </form>
+      <p id="ex8_p"></p>
+    </section>
+    <section id="ex9">
+        <div class="title">Vocales que aparecen</div>
+      <form>
+        <label for="phrase"
+          >Escribe una frase
+          <input type="text" name="phrase" id="ex9_field_phrase" />
+        </label>
+      </form>
+      <p id="ex9_p"></p>
+    </section>
+    <section id="ex10">
+        <div class="title">Vocales que aparecen y cuanto</div>
+      <form>
+        <label for="phrase"
+          >Escribe una frase
+          <input type="text" name="phrase" id="ex10_field_phrase" />
+        </label>
+      </form>
+      <p id="ex10_p"></p>
+    </section>
+    <section id="ex11">
+        <div class="title">Divisible por 2,3,5 o 7</div>
+      <form action="">
+        <label for="">Escribe un numero</label>
+        <input type="number" name="num" id="ex11_field_number" />
+      </form>
+      <p id="ex11_p"></p>
+    </section>
+    <section id="ex12">
+      <form action="">
+        <div class="title">Por cuales es divisible de 2,3,5 y 7</div>
+        <label for="">Escribe un numero</label>
+        <input type="number" name="num" id="ex12_field_number" />
+      </form>
+      <p id="ex12_p"></p>
+    </section>
+    <section id="ex13">
+        <div class="title">Hayar los divisores</div>
+      <form action="">
+        <label for="">Escribe un numero</label>
+        <input type="number" name="num" id="ex13_field_number" />
+      </form>
+      <p id="ex13_p"></p>
+    </section>
+    <section id="ex14">
+        <div class="title">Divisores comunes de dos numeros</div>
+        <form action="">
+          <label for="">Escribe dos numeros</label>
+          <input type="number" name="num1" id="ex14_field_number1" />
+          <input type="number" name="num2" id="ex14_field_number2" />
+        </form>
+        <p id="ex14_p"></p>
+      </section>
+      <section id="ex15">
+        <div class="title">¿Es primo?</div>
+        <form action="">
+          <label for="">Escribe un numero</label>
+          <input type="number" name="num" id="ex15_field_number" />
+        </form>
+        <p id="ex15_p"></p>
+      </section>
+
 
     <script src="./js/ex1.js"></script>
     <script src="./js/ex2.js"></script>
@@ -55,6 +139,13 @@
     <script src="./js/ex5.js"></script>
     <script src="./js/ex6.js"></script>
     <script src="./js/ex7.js"></script>
-    <!-- <script src="./js/alert.js"></script> -->
-</body>
+    <script src="./js/ex8.js"></script>
+    <script src="./js/ex9.js"></script>
+    <script src="./js/ex10.js"></script>
+    <script src="./js/ex11.js"></script>
+    <script src="./js/ex12.js"></script>
+    <script src="./js/ex13.js"></script>
+    <script src="./js/ex14.js"></script>
+    <script src="./js/ex15.js"></script> 
+  </body>
 </html>
